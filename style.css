@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #4685ea;
+  --secondary-color: #73869a;
+  --tertiary-color: #000000;
+  --quaternary-color: #fad0c4;
+  --quinary-color: #ff758c;
+  --senary-color: #ff7eb3;
+  --kontol: #d01be0;
+  --putih: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: linear-gradient(var(--primary-color), var(--primary-color));
+  color: rgb(15, 15, 15);
+  padding: 20px;
+}
+
+.ytta {
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+}
+
+#countdown {
+  font-size: 2em;
+  font-weight: 700;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
+button {
+  background: linear-gradient(
+    45deg,
+    var(--tertiary-color),
+    var(--tertiary-color)
+  );
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+button:hover {
+  background: linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--tertiary-color)
+  );
+  transform: scale(0.9);
+  transition: 0.3s ease-in-out;
+}
+
+.table-container {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 500px; /* Mencegah ukuran tabel mengecil terlalu banyak */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.table-footer {
+  text-align: left;
+}
+
+.copyright-ytta {
+  width: 90%;
+  text-align: justify;
+  margin: 1px auto;
+  -webkit-text-stroke: 0.1px rgb(255, 250, 250);
+  text-shadow: 1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+th {
+  background: var(--primary-color);
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
