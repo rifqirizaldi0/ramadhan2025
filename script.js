@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (difference <= 0) {
       document.getElementById("countdown").innerHTML =
-        "Ramadhan telah tiba! 🌙";
+        "Ramadhan telah tiba😹🗿! 🌙";
       clearInterval(countdownInterval);
       return;
     }
