@@ -45,6 +45,7 @@ body {
 #jadwal-imsak-judul {
   margin-top: 20px;
   text-align: center;
+  font-size: 100%;
 }
 
 #text-arab {
@@ -169,6 +170,8 @@ tr:nth-child(even) {
   }
   .ytta {
     font-size: 80%;
+  #jadwal-imsak-judul {
+    fontsize: 70%
   }
 }
 /* @media (max-width: 450px) {
