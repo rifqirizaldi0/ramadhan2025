@@ -12,12 +12,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="ytta"><h1>🌙 Hitung Mundur Ramadhan 2025 🕌</h1></div>
+    <div class="ytta"><h1>🌙 Ramadhan Kareem: Bulan Penuh Berkah</h1></div>
+    <p id="next-prayer-countdown">Sholat berikutnya: --:--:--</p>
     <div id="countdown"></div>
-    <p id="message">
-      Bulan penuh berkah akan segera tiba, persiapkan diri untuk menyambutnya!
-      🤲
-    </p>
+    <p id="text-arab" class="kataarab">كَانَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يُبَشِّرُ أَصْحَابَهُ بِقُدُوْمِ رَمَضَانَ بِقَوْلِ قَدْ جَاءَكُمْ شَهْرُ رَمَضَانَ شَهْرٌ مُبَارَكٌ كُتِبَ عَلَيْكُمْ صِيَامُهُ تُفْتَحُ فِيهِ أَبْوَابُ السَّمَاءِ وَتُغْلَقُ فِيهِ أَبْوَابُ الْجَحِيمِ وَتُغَلُّ فِيهِ الشَّيَاطِينُ فِيهِ لَيْلَةٌ خَيْرٌ مِنْ أَلْفِ شَهْرٍ مَنْ حَرُمَ خَيْرَهَا فَقَدْ حَرُمَ الخَيْرَ الكَثِيْرَ</p>
+    <p id="arti-arab" class="kataarab">Artinya: "Rasulullah memberikan kabar gembira atas kedatangan bulan Ramadhan dengan sabdanya, 'Bulan Ramadhan telah mendatangi kalian, sebuah bulan penuh berkah di mana kalian diwajibkan berpuasa di dalamnya, sebuah bulan di mana pintu langit dibuka, pintu neraka Jahim ditutup, setan-setan diikat, dan sebuah bulan di mana di dalamnya terdapat malam yang nilainya lebih baik dari seribu bulan. Siapa saja yang luput dari kebaikannya, maka ia telah luput dari kebaikan yang banyak." (HR Abu Hurairah)</p>
+    <p id="message">Turn On The Music Here!</p>
+
+
+
 
     <div class="button-container">
       <button id="music-button"><i data-feather="play"></i></button>
@@ -28,6 +31,20 @@
       <source src="ramadhan.mp3" type="audio/mpeg" />
       Browser Anda tidak mendukung elemen audio.
     </audio>
+    
+    <!-- Adzan -->
+    <audio id="imsak-sound">
+      <source src="imsak.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="adzan-subuh">
+      <source src="adzan-subuh.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio id="adzan">
+      <source src="adzan.mp3" type="audio/mpeg" />
+    </audio>
+ 
 
     <h2>🕌 Jadwal Imsakiyah Kabupaten Banyumas 2025 🕌</h2>
     <div style="overflow-x: auto">
