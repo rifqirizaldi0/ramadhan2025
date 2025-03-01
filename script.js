@@ -372,7 +372,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-        countdownElement.innerText = `Sholat ${nextPrayer} dalam ${hours}j ${minutes}m ${seconds}d`;
+        countdownElement.innerText = ` ${nextPrayer} dalam ${hours}j ${minutes}m ${seconds}d`;
       }
 
       updateCountdown();
