@@ -42,6 +42,11 @@ body {
   /* vertical-align: top; */
 }
 
+#jadwal-imsak-judul {
+  margin-top:20px;
+  text-align: center;
+}
+
 #text-arab {
   text-align: right;
   font-size: 200%;
