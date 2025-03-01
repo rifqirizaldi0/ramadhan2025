@@ -122,9 +122,10 @@ table {
 }
 
 .copyright-ytta {
-  width: 90%;
-  text-align: justify;
-  margin: 1px auto;
+ /* width: 90%;*/
+  /*text-align: justify;*/
+  margin-top: 10px;
+
   -webkit-text-stroke: 0.1px rgb(255, 250, 250);
   text-shadow: 1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255),
     1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
