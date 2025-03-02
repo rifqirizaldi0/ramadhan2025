@@ -66,12 +66,13 @@ body {
 }
 
 #countdown {
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 700;
   background: rgba(0, 0, 0, 0.5);
   padding: 15px;
   border-radius: 30px;
   color: white;
+  margin-top: 10px;
   display: inline-block;
   animation: fadeIn 2s ease-in-out infinite alternate;
 }
