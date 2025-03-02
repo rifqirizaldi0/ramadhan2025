@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById(
       "countdown"
-    ).innerHTML = `${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
+    ).innerHTML = `Idul Fitri ${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
   }
 
   const countdownInterval = setInterval(updateCountdown, 1000);
