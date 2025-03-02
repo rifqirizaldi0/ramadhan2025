@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 🎯 Countdown Ramadhan
   function updateCountdown() {
-    const targetDate = new Date("March 1, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 30, 2025 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
     if (difference <= 0) {
       document.getElementById("countdown").innerHTML =
-        "Ramadhan 1446 H telah tiba! 🌙";
+        "Minal Aidzin Wal Faidzin, Mohon Maaf Lahir Dan Batin 🙏";
       clearInterval(countdownInterval);
       return;
     }
