@@ -68,7 +68,12 @@ body {
 #countdown {
   font-size: 2em;
   font-weight: 700;
+  background: rgba(0, 0, 0, 0.5);
   padding: 15px;
+  border-radius: 30px;
+  color: white;
+  display: inline-block;
+  animation: fadeIn 2s ease-in-out infinite alternate;
 }
 #next-prayer-countdown {
   font-size: 2em;
