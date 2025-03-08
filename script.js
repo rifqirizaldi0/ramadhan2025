@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 🎯 Countdown Ramadhan
   function updateCountdown() {
-    const targetDate = new Date("March 30, 2025 00:00:00").getTime();
+    const targetDate = new Date("March 31, 2025 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
