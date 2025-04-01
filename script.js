@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 🎯 Countdown Ramadhan
   function updateCountdown() {
-    const targetDate = new Date("March 31, 2025 00:00:00").getTime();
+    const targetDate = new Date("February 18, 2026 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = targetDate - now;
 
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById(
       "countdown"
-    ).innerHTML = `Idul Fitri ${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
+    ).innerHTML = `Ramadhan 1447 H ${days} Hari ${hours} Jam ${minutes} Menit ${seconds} Detik`;
   }
 
   const countdownInterval = setInterval(updateCountdown, 1000);
